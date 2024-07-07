@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blahaj.Enterprises</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    .navbar {
+      margin-bottom: 50px;
+      background-color: #007bff;
+    }
+    .navbar-brand {
+      color: white !important;
+    }
+    .nav-link {
+      color: white !important;
+    }
+    .jumbotron {
+      background: #cceeff;
+      color: #0056b3;
+    }
+    .about {
+      padding: 50px 0;
+      background: #f8f9fa;
+    }
+    .services {
+      padding: 50px 0;
+      background: #e6f7ff;
+    }
+    .contact {
+      padding: 50px 0;
+      background: #f8f9fa;
+    }
+    .card {
+      background: #fff3f7;
+      border: 1px solid #ff99cc;
+    }
+    .card-title {
+      color: #ff66b2;
+    }
+    footer {
+      background: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    footer a {
+      color: #ff66b2;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Blahaj.Enterprises</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Welcome to Blahaj.Enterprises</h1>
+      <p class="lead">Your trusted partner in creative and digital solutions, led by Rosåhaj.</p>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section id="about" class="about text-center">
+    <div class="container">
+      <h2>About Us</h2>
+      <p class="lead">Blahaj.Enterprises is a Rosåhaj company, run by IKEA Blahajs, dedicated to delivering innovative and plush solutions for your needs. Our Chief of Pink Affairs, Rosålien Baankaart van Haj, ensures that every project is approached with creativity and a touch of fun.</p>
+      <img src="https://www.ikea.com/gb/en/images/products/blahaj-soft-toy-shark__0710175_PE727378_S5.JPG" alt="Blahaj" class="img-fluid rounded" style="max-width: 300px;">
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services text-center">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-users"></i> Mastodon Instance</h5>
+              <p class="card-text">Join our thriving community on blahaj.social, where you can connect, share, and discover new content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-comments"></i> Matrix Server</h5>
+              <p class="card-text">Communicate securely and effectively with our Matrix server, blahaj.live, tailored for all your messaging needs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-server"></i> In-House Datacenter</h5>
+              <p class="card-text">Our state-of-the-art in-house datacenter ensures reliable and scalable hosting solutions for your business.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact text-center">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p class="lead">Get in touch with our friendly Blahajs for any inquiries or to discuss your next project.</p>
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Your Name">
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control" placeholder="Your Email">
+          </div>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Blahaj.Enterprises a Rosåhaj company. All Rights Reserved.</p>
+      <p>Follow us on <a href="https://blahaj.social/@maartje" target="_blank"><i class="fab fa-mastodon"></i> Mastodon</a></p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-pF3AIf4fbOQOe6TNiSt5VzSgI5tXnXES42p/TuFfQtVf5Wkzxa4gRt3VfTAv44Mm" crossorigin="anonymous"></script>
+</body>
+</html>
